@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Information</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        text-align: center;
+        background-color: #f5f5f5;
+        padding-bottom: 2rem;
+      }
+
+      header {
+        background-color: #4c90d9;
+        padding: 1rem;
+        color: white;
+      }
+
+      .profile-section {
+        background-color: #333;
+        color: white;
+        padding: 2rem;
+      }
+
+      .profile-picture {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+      }
+
+      .title {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+      }
+
+      .content {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+      }
+
+      .story,
+      .personal-info {
+        background-color: white;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 40%;
+      }
+
+      .story h3,
+      .personal-info h3 {
+        color: #333;
+      }
+
+      footer {
+        margin-top: 2rem;
+      }
+
+      .social-icons img {
+        width: 30px;
+        margin: 0 10px;
+      }
+    </style>
+
+    <div class="container">
+      <header>
+        <h1>My Personal Information</h1>
+      </header>
+      <div class="profile-section">
+        <img src="https://storage.googleapis.com/submission-gce/profil.jpg" alt="Profile Picture" class="profile-picture" />
+        <h2>Aditya Mahendra</h2>
+        <p class="title">Software Engineer</p>
+      </div>
+      <div class="content">
+        <div class="story">
+          <h3>My Story</h3>
+          <p>
+            I have always been passionate about technology and how it can be
+            leveraged to solve real-world problems. My journey into web
+            development began when I created my first basic website during high
+            school, and that experience sparked a lifelong love for coding and
+            design. Throughout college, I immersed myself in learning various
+            web technologies and built several personal projects that challenged
+            my skills and creativity.
+          </p>
+          <p>
+            One of my proudest achievements was developing an interactive web
+            app for a local charity, which helped streamline their donation
+            management process and brought their mission to a wider audience.
+            That experience taught me the importance of building user-centric
+            solutions and reinforced my belief in the power of technology to
+            make a positive impact.
+          </p>
+          <p>
+            As I continue to grow as a developer, I am always eager to learn new
+            tools and frameworks, collaborate with like-minded individuals, and
+            stay updated with the latest industry trends. My goal is to not only
+            create functional and aesthetically pleasing web applications but to
+            contribute to projects that make a difference in people’s lives.
+          </p>
+        </div>
+        <div class="personal-info">
+          <h3>Personal Information</h3>
+          <p><strong>Age:</strong> 21 years old</p>
+          <p><strong>Phone:</strong> +62-813-1351-6969</p>
+          <p><strong>Email:</strong> ptadityamahendrap@gmail.com</p>
+        </div>
+      </div>
+      <footer>
+        <p>Find me in!</p>
+        <div class="social-icons">
+          <a href="#"><img alt="GitHub" /></a>
+          <a href="#"><img alt="LinkedIn" /></a>
+          <a href="#"><img alt="Twitter" /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
